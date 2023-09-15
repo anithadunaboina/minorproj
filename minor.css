@@ -1,0 +1,157 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    border: 1px solid black;
+     margin-top: 100px;
+     /* margin-bottom: 50px; */
+     
+  
+}
+h2{
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #19197e;
+
+}
+.a1{
+    display:flex;
+    flex-direction:row;
+    margin-top:3px;
+    padding-left:520px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+.a{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     text-align:left;  
+    padding-left:70px;
+    text-shadow: 2px 2px rgb(255, 0, 174);
+    justify-content: center;
+    margin-top:20px;
+    /* color:rgb(195, 72, 203); */
+}
+.b{
+        position:absolute;
+        right:850px;
+        top:45px;
+        font-size:50px;
+}
+header{
+    background-color: rgb(38, 38, 130);
+    color:white;
+    position:fixed;
+    left:0px;
+    top:0px;
+    width:100%;
+    font-size:20px;
+    height:100px;
+   
+  }
+  footer{
+    background-color: rgb(28, 28, 90);
+    color:whitesmoke;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+    font-size:30px;
+    height: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(90, 111, 202);
+    font-family: cursive;
+  }
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+body{
+    /* background-color: rgb(223, 166, 221);  */
+    /* background: linear-gradient(45deg,rgb(96, 96, 220),rgb(76, 94, 151)); */
+     background-image: url("https://c4.wallpaperflare.com/wallpaper/515/168/907/stars-sky-black-blurred-wallpaper-preview.jpg");
+    background-size: cover; 
+}
+
+.a1{
+    display:flex;
+    flex-direction:row;
+    margin-top:-10px;
+    padding-left:720px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+  }
+  a:link{color:brown}
+  a:visited{color:white}
+  a:hover{color:green}
+  a:active{color:red}
+  #b{
+    padding:20px;
+  }
+.card{
+      /* background:white;   */
+    width: 220px;
+    /*height: 480px;*/
+    margin:10px;
+    border-radius: 15px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+   background-image: linear-gradient(to bottom right, rgb(225, 241, 220), rgb(81, 182, 153)); */
+}
+.card-image{
+
+    height:170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.hist-1{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_VIEMDA-bBXH1I5j_feiGHlrwjxC6QNUyhQ&usqp=CAU");
+}
+.hist-2{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRamICTT8cq8P8RpocXpu4M8k0bSOjGi8eTSw&usqp=CAU");
+}
+.hist-3{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Red_Fort%2C_Delhi_India.jpg/2560px-Red_Fort%2C_Delhi_India.jpg");
+}
+.hist-4{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBR39iRM9VjGOihVDmPjmavYHshXag5O1OiQ&usqp=CAU");
+}
+.hist-5{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG-hMtWUaJfFyr_8pOAyOpFxQ2fdXm1vkCLA&usqp=CAU");
+}
+.hist-6{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYdxEj1TejnukgIj5q58NCPRewXVXA7gVPbg&usqp=CAU");
+}
+.hist-7{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlKVR_5DcqObiowxdaY1PFbbQMsVIdgrpHMw&usqp=CAU");
+}
+.hist-8{
+    background-image: url("https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/DCTM_Penguin_UK_DK_AL345768_mxdsvn.jpg");
+}
+.hist-9{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKl9732q_Mme87Mm9nOhmkI8YKkW_y8vxepw&usqp=CAU");
+}
+.hist-10{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRco7wG7r3Vj3GGEqMLKZJum8uyO_s7HqnPPg&usqp=CAU");
+}
+.card p{
+    padding:10px;
+}
+.card a{
+    background-color: black;
+    color:white;
+    padding: 15px 20px;
+    display:block;
+    text-align: center;
+    margin: 10px 30px;
+    text-decoration: none;
+}
+.card:hover{
+    background-color: rgb(62,62,62);
+    color:white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
